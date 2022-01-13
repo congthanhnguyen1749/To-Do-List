@@ -6,6 +6,7 @@ function onAddClick() {
 	var newTodo = document.getElementById("newTodo").value;
 	todos.push(newTodo);
 	document.getElementById("newTodo").value = "";
+
 	if (newTodo.trim() === "") {
 		alert("Bạn chưa nhập dữ liệu");
 	} else {
@@ -13,9 +14,13 @@ function onAddClick() {
 	}
 }
 
+function editTask(id) {}
+
 function updateTodoList() {
 	var eleTodoList = document.getElementById("todo-list");
+
 	eleTodoList.innerHTML = "";
+
 	for (var i = 0; i < todos.length; i++) {
 		eleTodoList.innerHTML +=
 			'<div   class="box__Task-todo-list-son-2-todo-value">' +
@@ -48,3 +53,7 @@ document.getElementById("newTodo").addEventListener("keyup", function (event) {
 		document.getElementById("btnn").click();
 	}
 });
+
+function buttonCode() {
+	alert("Button code executed.");
+}
