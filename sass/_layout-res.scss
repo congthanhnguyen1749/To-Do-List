@@ -1,0 +1,305 @@
+@import "./global";
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box__Task-todo-list {
+	width: 1000px;
+	height: 85vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid;
+
+	&-son-1 {
+		width: 440px;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		margin: 25px;
+		border-right: 1px solid black;
+		padding-right: 20px;
+
+		&-box {
+			text-align: center;
+
+			p {
+				text-align: center;
+				margin-bottom: 60px;
+				font-weight: 500;
+				margin-top: 20px;
+				font-size: 19px;
+			}
+
+			input {
+				width: 100%;
+				margin-bottom: 25px;
+				height: 32px;
+				text-indent: 10px;
+				font-size: 15px;
+			}
+		}
+
+		&-box-2 {
+			text-align: center;
+
+
+
+			strong {
+				float: left;
+				font-weight: 300;
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+
+			textarea {}
+		}
+
+		&-box-3 {
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 35px;
+			margin-bottom: 45px;
+
+			&-Date {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+
+				strong {
+					margin-bottom: 5px;
+					font-weight: 300;
+					font-size: 14px;
+				}
+
+				input {
+					width: 200px;
+				}
+			}
+
+			&-Piority {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+
+				strong {
+					margin-bottom: 5px;
+					font-weight: 300;
+					font-size: 14px;
+				}
+
+
+			}
+
+		}
+
+		&-box-4 {
+			text-align: center;
+
+			&-input {
+				width: 100%;
+				height: 40px;
+				background-color: #74bd63;
+				line-height: 40px;
+
+				h3 {
+					font-weight: 100;
+					font-size: 17px;
+					color: white;
+				}
+			}
+
+		}
+
+	}
+
+	&-son-2 {
+		width: 600px;
+		height: 80vh;
+		margin: 0 25px 0 15px;
+
+		p {
+			text-align: center;
+			margin-bottom: 60px;
+			font-weight: 500;
+			margin-top: 20px;
+			font-size: 19px;
+		}
+
+		input {
+			width: 100%;
+			margin-bottom: 25px;
+			height: 32px;
+			text-indent: 10px;
+			font-size: 15px;
+		}
+	}
+
+	.box__Task-todo-list-son-2 {
+		overflow: auto;
+
+		&-todo-value {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border: 1px solid;
+			margin-top: 5px;
+			overflow: auto;
+
+			.inp {
+				width: 18px;
+				height: 50px;
+				margin: 0;
+				padding: 0;
+				margin: 0 0px 0 20px;
+
+			}
+
+			.pp {
+				font-weight: 300;
+				font-size: 14px;
+				margin: 0;
+				width: 200px;
+				overflow: auto;
+				padding: 0;
+				text-align: left;
+			}
+
+
+			.detail {
+				width: 80px;
+				height: 30px;
+				border-radius: 3px;
+				background-color: #65c6db;
+
+				p {
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 30px;
+					margin: 0;
+					color: white;
+					padding: 0;
+				}
+			}
+
+
+			.remove {
+				width: 80px;
+				height: 30px;
+				border-radius: 3px;
+				margin: 0 20px 0 0px;
+				background-color: #CA5C54;
+
+				p {
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 30px;
+					margin: 0;
+					color: white;
+					padding: 0;
+				}
+			}
+
+		}
+
+		&-con-info {
+			border-left: 1px solid;
+			border-bottom: 1px solid;
+			border-right: 1px solid;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			input {
+				width: 93%;
+				margin-top: 20px;
+				height: 32px;
+				text-indent: 10px;
+				font-size: 15px;
+			}
+
+			.no {
+				text-align: left;
+				margin-bottom: 5px;
+				font-weight: 300;
+				margin-top: -10px;
+				font-size: 13px;
+			}
+
+			.box-time {
+				display: flex;
+				width: 93%;
+
+				.box__Task-1 {
+					margin-right: 7px;
+
+					strong {
+						font-weight: 300;
+						font-size: 13px;
+					}
+
+					input {
+						width: 210px;
+						margin-top: 5px;
+					}
+				}
+
+				.box__Task-2 {
+
+					strong {
+						font-weight: 300;
+						font-size: 13px;
+					}
+
+					input {
+						width: 210px;
+						margin-top: 5px;
+					}
+				}
+			}
+
+			.link {
+				.update {
+					width: 435px;
+					border-radius: 3px;
+					height: 30px;
+					margin-bottom: 20px;
+					background-color: #74bd63;
+
+					p {
+						text-align: center;
+						font-weight: 300;
+						font-size: 15px;
+						line-height: 30px;
+						color: white;
+					}
+				}
+			}
+
+		}
+	}
+
+	#skills {
+		width: 200px;
+		height: 28px;
+	}
+
+	#skills-2 {
+		width: 200px;
+		height: 30px;
+		margin-top: 6px;
+	}
+
+	.search-more-check {
+		.search-more-check-home {
+			width: 100px;
+			height: 10px;
+			background-color: red;
+		}
+	}
+}
