@@ -1,3 +1,353 @@
-*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}div{background-color:#fff}*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}body{height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.box__Task-todo-list{width:1000px;height:85vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:1px solid}.box__Task-todo-list-son-1{width:440px;height:80vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin:25px;border-right:1px solid black;padding-right:20px}.box__Task-todo-list-son-1-box{text-align:center}.box__Task-todo-list-son-1-box p{text-align:center;margin-bottom:60px;font-weight:500;margin-top:20px;font-size:19px}.box__Task-todo-list-son-1-box input{width:100%;margin-bottom:25px;height:32px;text-indent:10px;font-size:15px}.box__Task-todo-list-son-1-box-2{text-align:center}.box__Task-todo-list-son-1-box-2 strong{float:left;font-weight:300;font-size:14px;margin-bottom:5px}.box__Task-todo-list-son-1-box-3{text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:35px;margin-bottom:45px}.box__Task-todo-list-son-1-box-3-Date{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.box__Task-todo-list-son-1-box-3-Date strong{margin-bottom:5px;font-weight:300;font-size:14px}.box__Task-todo-list-son-1-box-3-Date input{width:200px}.box__Task-todo-list-son-1-box-3-Piority{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.box__Task-todo-list-son-1-box-3-Piority strong{margin-bottom:5px;font-weight:300;font-size:14px}.box__Task-todo-list-son-1-box-4{text-align:center}.box__Task-todo-list-son-1-box-4-input{width:100%;height:40px;background-color:#74bd63;line-height:40px}.box__Task-todo-list-son-1-box-4-input:hover{background-color:#99d18b}.box__Task-todo-list-son-1-box-4-input h3{font-weight:100;font-size:17px;color:white}.box__Task-todo-list-son-2{width:600px;height:80vh;margin:0 25px 0 15px}.box__Task-todo-list-son-2 p{text-align:center;margin-bottom:60px;font-weight:500;margin-top:20px;font-size:19px}.box__Task-todo-list-son-2 input{width:100%;margin-bottom:25px;height:32px;text-indent:10px;font-size:15px}.box__Task-todo-list .box__Task-todo-list-son-2{overflow:auto}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid;margin-top:5px;overflow:auto}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .inp{width:18px;height:50px;margin:0;padding:0;margin:0 0px 0 20px}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .pp{font-weight:300;font-size:14px;margin:0;width:200px;overflow:auto;padding:0;text-align:left}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail{width:80px;height:30px;border-radius:3px;background-color:#65c6db}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail:hover{background-color:#90d3e0}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail p{font-weight:300;font-size:14px;line-height:30px;margin:0;color:white;padding:0}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove{width:80px;height:30px;border-radius:3px;margin:0 20px 0 0px;background-color:#CA5C54}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove:hover{background-color:#d4837e}.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove p{font-weight:300;font-size:14px;line-height:30px;margin:0;color:white;padding:0}.box__Task-todo-list .box__Task-todo-list-son-2-con-info{border-left:1px solid;border-bottom:1px solid;border-right:1px solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.box__Task-todo-list .box__Task-todo-list-son-2-con-info input{width:93%;margin-top:20px;height:32px;text-indent:10px;font-size:15px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .no{text-align:left;margin-bottom:5px;font-weight:300;margin-top:-10px;font-size:13px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time{display:-webkit-box;display:-ms-flexbox;display:flex;width:93%}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1{margin-right:7px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1 strong{font-weight:300;font-size:13px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1 input{width:210px;margin-top:5px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-2 strong{font-weight:300;font-size:13px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-2 input{width:210px;margin-top:5px}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .link .update{width:435px;border-radius:3px;height:30px;margin-bottom:20px;background-color:#74bd63}.box__Task-todo-list .box__Task-todo-list-son-2-con-info .link .update p{text-align:center;font-weight:300;font-size:15px;line-height:30px;color:white}.box__Task-todo-list #skills{width:200px;height:28px}.box__Task-todo-list #skills-2{width:200px;height:30px;margin-top:6px}*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}*{text-decoration:none;list-style-type:none;font-family:Arial, Helvetica, sans-serif}
+
+* {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+	background-color: #fff
+}
+
+body {
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.box__Task-todo-list {
+	width: 1000px;
+	height: 85vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border: 1px solid
+}
+
+.box__Task-todo-list-son-1 {
+	width: 440px;
+	height: 80vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin: 25px;
+	border-right: 1px solid black;
+	padding-right: 20px
+}
+
+.box__Task-todo-list-son-1-box {
+	text-align: center
+}
+
+.box__Task-todo-list-son-1-box p {
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 500;
+	margin-top: 20px;
+	font-size: 19px
+}
+
+.box__Task-todo-list-son-1-box input {
+	width: 100%;
+	margin-bottom: 25px;
+	height: 32px;
+	text-indent: 10px;
+	font-size: 15px
+}
+
+.box__Task-todo-list-son-1-box-2 {
+	text-align: center
+}
+
+.box__Task-todo-list-son-1-box-2 strong {
+	float: left;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 5px
+}
+
+.box__Task-todo-list-son-1-box-3 {
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-top: 35px;
+	margin-bottom: 45px
+}
+
+.box__Task-todo-list-son-1-box-3-Date {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start
+}
+
+.box__Task-todo-list-son-1-box-3-Date strong {
+	margin-bottom: 5px;
+	font-weight: 300;
+	font-size: 14px
+}
+
+.box__Task-todo-list-son-1-box-3-Date input {
+	width: 200px
+}
+
+.box__Task-todo-list-son-1-box-3-Piority {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start
+}
+
+.box__Task-todo-list-son-1-box-3-Piority strong {
+	margin-bottom: 5px;
+	font-weight: 300;
+	font-size: 14px
+}
+
+.box__Task-todo-list-son-1-box-4 {
+	text-align: center
+}
+
+.box__Task-todo-list-son-1-box-4-input {
+	width: 100%;
+	height: 40px;
+	background-color: #74bd63;
+	line-height: 40px
+}
+
+.box__Task-todo-list-son-1-box-4-input:hover {
+	background-color: #99d18b
+}
+
+.box__Task-todo-list-son-1-box-4-input h3 {
+	font-weight: 100;
+	font-size: 17px;
+	color: white
+}
+
+.box__Task-todo-list-son-2 {
+	width: 600px;
+	height: 80vh;
+	margin: 0 25px 0 15px
+}
+
+.box__Task-todo-list-son-2 p {
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 500;
+	margin-top: 20px;
+	font-size: 19px
+}
+
+.box__Task-todo-list-son-2 input {
+	width: 100%;
+	margin-bottom: 25px;
+	height: 32px;
+	text-indent: 10px;
+	font-size: 15px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2 {
+	overflow: auto
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid;
+	margin-top: 5px;
+	overflow: auto
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .inp {
+	width: 18px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	margin: 0 0px 0 20px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .pp {
+	font-weight: 300;
+	font-size: 14px;
+	margin: 0;
+	width: 200px;
+	overflow: auto;
+	padding: 0;
+	text-align: left
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail {
+	width: 80px;
+	height: 30px;
+	border-radius: 3px;
+	background-color: #65c6db
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail:hover {
+	background-color: #90d3e0
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .detail p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0;
+	color: white;
+	padding: 0
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove {
+	width: 80px;
+	height: 30px;
+	border-radius: 3px;
+	margin: 0 20px 0 0px;
+	background-color: #CA5C54
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove:hover {
+	background-color: #d4837e
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-todo-value .remove p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0;
+	color: white;
+	padding: 0
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info {
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info input {
+	width: 93%;
+	margin-top: 20px;
+	height: 32px;
+	text-indent: 10px;
+	font-size: 15px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .no {
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight: 300;
+	margin-top: -10px;
+	font-size: 13px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 93%
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1 {
+	margin-right: 7px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1 strong {
+	font-weight: 300;
+	font-size: 13px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-1 input {
+	width: 210px;
+	margin-top: 5px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-2 strong {
+	font-weight: 300;
+	font-size: 13px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .box-time .box__Task-2 input {
+	width: 210px;
+	margin-top: 5px
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .link .update {
+	width: 435px;
+	border-radius: 3px;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #74bd63
+}
+
+.box__Task-todo-list .box__Task-todo-list-son-2-con-info .link .update p {
+	text-align: center;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 30px;
+	color: white
+}
+
+.box__Task-todo-list #skills {
+	width: 200px;
+	height: 28px
+}
+
+.box__Task-todo-list #skills-2 {
+	width: 200px;
+	height: 30px;
+	margin-top: 6px
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
